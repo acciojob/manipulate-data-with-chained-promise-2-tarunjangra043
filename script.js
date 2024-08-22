@@ -12,7 +12,7 @@ function filterEvenNumbers(numbers) {
             const evenNumbers = numbers.filter(num => num % 2 === 0);
             document.getElementById('output').innerText = evenNumbers.join(', ');
             resolve(evenNumbers);
-        }, 1000);
+        }, 1000); 
     });
 }
 
@@ -22,7 +22,7 @@ function multiplyNumbers(numbers) {
             const multipliedNumbers = numbers.map(num => num * 2);
             document.getElementById('output').innerText = multipliedNumbers.join(', ');
             resolve(multipliedNumbers);
-        }, 2000);
+        }, 2000); 
     });
 }
 
